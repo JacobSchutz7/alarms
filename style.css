@@ -1,0 +1,22 @@
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.timer-box {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex-wrap: nowrap;
+}
+
+.inner-timer {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	padding: 5px;
+	margin: 5px;
+}
